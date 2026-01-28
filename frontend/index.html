@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Abstraction Demo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <p class="eyebrow">Order 66 // Account Abstraction</p>
+        <h1>ERC-4337 Demo</h1>
+        <p class="sub">EntryPoint v0.7 · Kylo Ren interface</p>
+      </header>
+
+      <section class="card">
+        <h2>Account</h2>
+        <div class="row">
+          <span>Predicted Address:</span>
+          <code id="accountAddress">-</code>
+        </div>
+        <div class="row">
+          <span>Deployed:</span>
+          <strong id="deploymentStatus">-</strong>
+        </div>
+        <div class="actions">
+          <button id="btnPredict">Predict Address</button>
+          <button id="btnDeploy">Create Account (UserOp)</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Paymaster</h2>
+        <div class="actions">
+          <button id="btnFundPaymaster">Fund Paymaster Deposit</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Mint Dummy NFT</h2>
+        <div class="actions">
+          <button id="btnMintOwner1">Mint (Owner1)</button>
+          <button id="btnMintOwner2">Mint (Owner2)</button>
+          <button id="btnBatchMint">Batch Mint (Owner1)</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Session Key</h2>
+        <div class="actions">
+          <button id="btnGrantSession">Grant Session Key</button>
+          <button id="btnUseSession">Use Session Key (Mint)</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Social Recovery</h2>
+        <div class="row">
+          <label for="newOwner">New Owner Address</label>
+          <input id="newOwner" type="text" placeholder="0x..." />
+        </div>
+        <div class="actions">
+          <button id="btnRecover">Guardian Add Owner (EOA Tx)</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Logs</h2>
+        <pre id="logs"></pre>
+      </section>
+    </main>
+
+    <script src="./config.js"></script>
+    <script type="module" src="./main.js?v=2"></script>
+  </body>
+</html>

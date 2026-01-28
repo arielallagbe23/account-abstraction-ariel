@@ -1,0 +1,8 @@
+.env
+cache/
+out/
+broadcast/
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+assets/*.webp
