@@ -79,14 +79,7 @@ https://sepolia.etherscan.io/tx/0x8f25a47aef893b20fea751c812b4f0d7355d27a5ab9f32
 ## 7) Captures d’écran (front)
 Ajoutez vos captures dans `account-abstraction-ariel/assets/` puis référez‑les ici :
 ```
-assets/01-predict.png
-assets/02-create-userop.png
-assets/03-mint-owner1.png
-assets/04-mint-owner2.png
-assets/05-batch-mint.png
-assets/06-grant-session.png
-assets/07-use-session.png
-assets/08-guardian-recovery.png
+
 ```
 
 ## 5) Remarques
