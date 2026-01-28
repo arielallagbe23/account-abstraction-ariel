@@ -1,4 +1,4 @@
-# Account Abstraction TD — Rapport (Jan 26, 2026)
+# Account Abstraction TD
 
 ## Résumé exécutif
 - Implémentation complète ERC‑4337 (EntryPoint v0.7) : factory, smart account multi‑owner, session keys, social recovery, paymaster permissif.
